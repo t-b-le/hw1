@@ -1,0 +1,172 @@
+<!--
+File: hw1.html
+Created: 9/19/2023
+GUI Assignment: Creating Your First Webpage
+    My website consists of 
+    -some websites to browse 
+    -headings 
+    -paragraphs 
+    -tables 
+    -linked in images 
+    -simple styling w/ CSS 
+
+Copyright (c) 2023 by ThienTran. All rights reserved. 
+May be freely copied/excerpted for educational purposes 
+with credit to the author.
+
+Updated by TL on 9/26/2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>!!t le rules!!</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <h1>Welcome to ThienTran's Website!</h1>
+    <p>The purpose of this website is to give people a general rundown of who I am! :></p>
+
+    <h2>Fun Facts About Me</h2>
+    <h3>1. I like playing videogames!</h3>
+    <p>In my free time and in between studying for classes, I like to play videogames!
+       Some of my favorites that have a special place in my heart include Hollow Knight, 
+       League of Legends, and Genshin Impact!
+       Below is a picture of me playing Genshin Impact next to one of my favorite 
+       characters in game!
+    </p> 
+    <img src="Images/genshin.png" alt="Me in Genshin Impact" width="600" height="350">
+    <h3>2. I'm not very good at videogames!</h3>
+    <p>Despite my enjoyment of videogames, I'm actually not very good. It's a new hobby
+       I got into recently, so while I'm not ranked very high in terms of my gameplay, 
+       I enjoy learning how to get better with every game!
+       Below are a few pictures from my matches, sourced from the website 
+       <a href="https://www.op.gg/summoners/na/hanaaham"><span style="cursor:help">op.gg</span></a>
+       as it records all of my matchups every season!
+    </p>
+    <img src="Images/game_L_sourceFromOPGG.png" alt="Losing Game sourced from op.gg" width="500" height="100">
+    <img src="Images/game_W_sourceFromOPGG.png" alt="Winning Game sourced from op.gg" width="500" height="100">
+
+    <h3>3. I like manga/manhwa/manhua!</h3>
+    <p>This has been a lifelong hobby of mine! For those who don't know what it is, it's 
+       East Asian animation/comic books, mainly from Japan, South Korea, and China. It's 
+       It's been something that has helped me cheer up when things are down. There truly isn't 
+       anything better than a couple of warm blankets, curled up with a good manga!
+       Below is a picture from one of my favorite manhwas, Eleceed! Can you tell he's one of my
+       favorite characters?
+    </p>
+    <img src="Images/KAYDEN.png" alt="Kayden from Eleceed" width="600" height="225">
+
+    <h2>Some Projects I've Done</h2>
+    <!--<h3><a href="https://github.com/t-b-le"><span style="cursor:help">Image Encoder</span></a></h3>-->
+    <h3>Image Encoder</h3>
+    <p>This project I made in January 2022 is one of my favorites! The project had me 
+       working with RBG values within each pixel of an image and encrypt the image. It
+       was a very interesting project that helped introduce me to C++ as well as the 
+       SFML library. 
+    </p>
+    <img src="Images/imageEncoder.png" alt="Image Encoder" width="300" height="250">
+    <!--<h3><a href="https://github.com/t-b-le"><span style="cursor:wait">Serpinski Triangle</span></a></h3>-->
+    <h3>Serpinski Triangle</h3>
+    <p>This is another one of my projects that I am very proud of! This project was 
+       similar to the Image Encoder project in that I was still very new to C++ and 
+       the SFML library, but this project was a full of a little more math! I had to 
+       figure out how to recreate a Serpinski Triangle using recursion, and it kind of
+       had me going back to remember my trigonometry, which I had a lot of fun doing!
+    </p>
+    <img src="Images/serpinskiTriangle.png" alt="Serpinski Triangle" width="300" height="250">
+
+    <h2>Some of My Hobbies/Interests</h2>
+    <h3>
+      Machine Learning
+    </h3>
+    <p>Over the summer of 2023, I was fortunate enough to be able to work on a research 
+       project that had focused on robotics, and incorporating that into pediatric rehab. 
+       It was a very fun and interesting project to be a part of, and so I hope that I can 
+       make some time in the future to work more on it, even if it is just as a hobby!
+    </p>
+    <button 
+      type="button" 
+      onclick="window.location.href='https://www.uml.edu/research/areas/robotics.aspx'">
+      More about My Work with Robotics
+    </button>
+    <p>It was only after I got into Computer Science that I started learning more about 
+       machine learning! It's very fascinating stuff and while it is all very complicated
+       stuff, I hope that some work I get to work on can work more into machine learning!
+    </p>
+    <button 
+      type="button" 
+      onclick="window.location.href='https://en.wikipedia.org/wiki/Machine_learning'">
+      More about Machine Learning
+    </button>
+    <p>As I mentioned before, I really like East Asian comic books, so naturally, I've begun 
+       to read a new release called Kagura Bachi. It has already started becoming popular and 
+       gaining lots of traction, so I've naturally also become very interested in it as well!
+    </p>
+    <button 
+      type="button" 
+      onclick="window.location.href='https://kagurabachi.fandom.com/wiki/Kagurabachi_Wiki'">
+      More about Kagura Bachi
+    </button>
+
+    <h2>Music I'm Listening To Right Now</h2>
+    <p>Here's an interactive list of some of my top 5 most recent listens!
+       Hope you decide to give them a listen!
+    </p>
+    <table>
+      <tr>
+        <th>Song Title</th>
+        <th>Artist</th>
+      </tr>
+      <tr>
+        <td><a 
+              href="https://genius.com/Galneryus-hunting-for-your-dream-lyrics">
+              <span style="cursor:help">
+                HUNTING FOR YOUR DREAM</span>
+            </a>
+        </td>
+        <td>GALNERYUS</td>
+      </tr>
+      <tr>
+        <td><a 
+              href="https://genius.com/Genius-english-translations-king-gnu-specialz-english-translation-lyrics">
+              <span style="cursor:help">
+                SPECIALZ</span>
+            </a>
+        </td>
+        <td>King Gnu</td>
+      </tr>
+      <tr>
+        <td><a 
+              href="https://genius.com/Far-east-movement-and-marshmello-freal-luv-lyrics">
+              <span style="cursor:help">
+                Freal Luv</span>
+            </a>
+        </td>
+        <td>Far East Movement & Marshmello (ft. Chanyeol & Tinashe)</td>
+      </tr>
+      <tr>
+        <td><a 
+              href="https://genius.com/Blackbear-and-tiny-meat-gang-short-kings-anthem-lyrics">
+              <span style="cursor:help">
+                  short kings anthem</span>
+              </a>
+        </td>
+        <td>TMG (ft. blackbear)</td>
+      </tr>
+      <tr>
+        <td><a 
+              href="https://genius.com/Britney-spears-circus-lyrics">
+              <span style="cursor:help">
+                Circus</span>
+            </a>
+        </td>
+        <td>Britney Spears</td>
+      </tr>
+    </table>
+
+</body>
+</html>
